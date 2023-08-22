@@ -2,7 +2,9 @@
     --black: #000;
     --white: #fff;
 }
-
+.p1-padding{
+    padding: 30px 60px;
+}
 * {
     padding: 0;
     margin: 0;
@@ -72,4 +74,99 @@ main {
     justify-content: center;
     align-items: center;
     background-color: #0d0d0e;
+}
+main #content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0 10rem; */
+}
+main #content .img-and-contact{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main #content .img-and-contact .main-img img{
+    height: 330px;
+    width: 330px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 0.5px solid var(--white);
+    transition: all 0.3s ease;
+}
+main #content .img-and-contact img:hover{
+    padding: 0px;
+    border: none;
+   
+}
+main #content .img-and-contact .contact{
+    margin-top: 15px;
+}
+main #content .img-and-contact .contact a img{
+    height :40px;
+    width: 40px;
+    background-color: var(--white);
+    border-radius: 50%;
+    padding: 5px;
+    margin: 0 5px;
+    transition: all 0.4s ease;
+
+}
+main #content .img-and-contact .contact a img:hover{
+   transform: translateY(-10px);
+    border-radius: 10%;
+}
+main #content .introtext{
+    color: var(--white);
+    width: 50%;
+
+
+}
+main #content .introtext h1{
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+main #content .introtext h2{
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    transition: all 0.3s ease;
+
+}
+main #content .introtext h2 span{
+    color: rgb(235, 125, 125);
+    font-weight: 400;
+    /* transition: all 0.3s ease; */
+    position: relative;
+    cursor:text;
+}
+main #content .introtext h2 span::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color:rgb(235, 125, 125) ;
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: width 0.3s ease;
+}
+main #content .introtext h2 span:hover::after{
+    width: 100%;
+}
+main #content .introtext h5{
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 10px;
+    margin-left: 30px;
 }
