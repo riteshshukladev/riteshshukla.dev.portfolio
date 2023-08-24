@@ -1,6 +1,8 @@
 :root {
     --black: #000;
     --white: #fff;
+    --main-bg-color:#0d0d0e;
+    --light-orange:rgb(235, 125, 125);
 }
 .p1-padding{
     padding: 30px 60px;
@@ -10,6 +12,10 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Barlow', sans-serif;
+}
+body{
+    background-color: var(--main-bg-color);
+    color: var(--white);
 }
 /* Navbar */
 header {
@@ -73,7 +79,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #0d0d0e;
+    background-color:var(--main-bg-color);
 }
 main #content {
     height: 100%;
@@ -143,7 +149,7 @@ main #content .introtext h2{
 
 }
 main #content .introtext h2 span{
-    color: rgb(235, 125, 125);
+    color:var(--light-orange) ;
     font-weight: 400;
     /* transition: all 0.3s ease; */
     position: relative;
@@ -169,4 +175,29 @@ main #content .introtext h5{
     font-weight: 300;
     margin-bottom: 10px;
     margin-left: 30px;
+}
+/* About Section */
+#about-sect{
+    height: 90vh;
+    width: 100%;
+}
+#about-sect #about-content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content:baseline;
+    align-items:baseline;
+    flex-direction: column;
+    padding: 0 10rem;
+}
+#about-sect #about-content .about-heading{
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+#about-sect #about-content .abt-text{
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 10px;
+    line-height: 1.5;
 }
