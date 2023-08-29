@@ -3,6 +3,7 @@
     --white: #fff;
     --main-bg-color:#0d0d0e;
     --light-orange:rgb(235, 125, 125);
+    --pr-container:#3a3636;
 }
 .p1-padding{
     padding: 30px 60px;
@@ -201,3 +202,146 @@ main #content .introtext h5{
     margin-bottom: 10px;
     line-height: 1.5;
 }
+
+/* Project sect */
+#projects{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 12rem;
+}
+#projects .project-heading{
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+#projects #main-project-container{
+    height: 50%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0px;
+    background-color: var(--pr-container);
+}
+#projects #main-project-container .main-projects{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: row;
+}
+#projects #main-project-container .main-projects .project-main-img {
+    height: 100%;
+    width: 50%;
+}
+
+#projects #main-project-container .main-projects .project-main-img img{
+    height: 100%;
+    width: 100%;
+}
+#projects #main-project-container .main-projects .text-and-others{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 30px;
+    
+}
+#projects #main-project-container .main-projects .text-and-others .head-and-about{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+#projects #main-project-container .main-projects .text-and-others .head-and-about .pr-name{
+
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--white);
+    border-bottom: 2px solid var(--white);
+}
+#projects #main-project-container .main-projects .text-and-others .head-and-about .pr-details{
+    margin-top: 10px;
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: var(--white);
+    line-height: 1.5;
+}
+
+#projects #main-project-container .main-projects .text-and-others .tools-and-link{
+    height: 40%;
+    width:100%;
+}
+#projects #main-project-container .main-projects .text-and-others .tools-and-link .tools{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 1px solid var(--white);
+    border-bottom: 1px solid var(--white);
+
+}
+#projects #main-project-container .main-projects .text-and-others .tools-and-link .tools h5{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: var(--white);
+}
+
+#projects #main-project-container .main-projects .text-and-others .tools-and-link .tools table{
+  
+  margin-left: 70px;
+ border-collapse: collapse;
+ width: 60%;
+}
+#projects #main-project-container .main-projects .text-and-others .tools-and-link .tools table td{
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--white);
+}
+
+#projects #main-project-container .main-projects .text-and-others .tools-and-link .tools table td::before {
+    content: "\2022"; 
+    padding-right: 10px;
+  }
+
+#projects #main-project-container .main-projects .text-and-others .tools-and-link .link{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+}
+#projects #main-project-container .main-projects .text-and-others .tools-and-link .link a img
+{
+    height :30px;
+    width: 30px;
+    background-color: transparent;
+    border-radius: 10%;
+    padding: 2px;
+    margin: 0 5px;
+    transition: all 0.4s ease;
+}
+
+#projects #main-project-container .main-projects .text-and-others .tools-and-link .link a img:hover{
+    transform: scale(1.16);
+    border-radius: 50%;
+}   
+
+ 
