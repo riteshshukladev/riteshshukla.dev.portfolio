@@ -123,7 +123,7 @@ main #content .img-and-contact .contact a img{
     border-radius: 50%;
     padding: 5px;
     margin: 0 5px;
-    transition: all 0.4s ease;
+    transition: all 0.3s ease;
 
 }
 main #content .img-and-contact .contact a img:hover{
@@ -205,10 +205,10 @@ main #content .introtext h5{
 
 /* Project sect */
 #projects{
-    height: 100vh;
+    height: 1080px;
     width: 100%;
     display: flex;
-    justify-content: top;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 0 12rem;
@@ -218,36 +218,30 @@ main #content .introtext h5{
     font-weight: 500;
     margin-bottom: 10px;
 }
-#projects #main-project-container{
+#projects .main-projects{
     height: 50%;
     width: 90%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    margin: 50px 0px;
-    background-color: var(--pr-container);
-}
-#projects #main-project-container .main-projects{
-    height: 100%;
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content:center;
     flex-direction: row;
+    background-color: var(--pr-container);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 50px 0px;
 }
-#projects #main-project-container .main-projects .project-main-img {
+#projects .main-projects .project-main-img {
     height: 100%;
-    width: 50%;
+    width: 55%;
 }
 
-#projects #main-project-container .main-projects .project-main-img img{
+#projects .main-projects .project-main-img img{
     height: 100%;
     width: 100%;
 }
-#projects #main-project-container .main-projects .text-and-others{
+#projects .main-projects .text-and-others{
     height: 100%;
-    width: 50%;
+    width: 45%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -255,8 +249,8 @@ main #content .introtext h5{
     padding: 10px 30px;
     
 }
-#projects #main-project-container .main-projects .text-and-others .head-and-about{
-    height: 60%;
+#projects .main-projects .text-and-others .head-and-about{
+    height: 65%;
     width: 100%;
     display: flex;
     justify-content:flex-start;
@@ -264,71 +258,73 @@ main #content .introtext h5{
     flex-direction: column;
 }
 
-#projects #main-project-container .main-projects .text-and-others .head-and-about .pr-name{
+#projects .main-projects .text-and-others .head-and-about .pr-name{
 
     font-size: 2rem;
     font-weight: 500;
     color: var(--white);
     border-bottom: 2px solid var(--white);
 }
-#projects #main-project-container .main-projects .text-and-others .head-and-about .pr-details{
-    margin-top: 10px;
+#projects .main-projects .text-and-others .head-and-about .pr-details{
+    
     font-size: 1.1rem;
     font-weight: 300;
     color: var(--white);
     line-height: 1.5;
+    
+    margin: 15px 0;
 }
 
-#projects #main-project-container .main-projects .text-and-others .tools-and-link{
-    height: 40%;
+#projects .main-projects .text-and-others .tools-and-link{
+    height: 35%;
     width:100%;
+    
 }
-#projects #main-project-container .main-projects .text-and-others .tools-and-link .tools{
-    height: 60%;
+#projects .main-projects .text-and-others .tools-and-link .tools{
+    height: 65%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: start;
     flex-direction: column;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px 0;
     border-top: 1px solid var(--white);
     border-bottom: 1px solid var(--white);
 }
-#projects #main-project-container .main-projects .text-and-others .tools-and-link .tools h5{
+#projects .main-projects .text-and-others .tools-and-link .tools h5{
     font-size: 1.2rem;
     font-weight: 500;
     margin-bottom: 10px;
     color: var(--white);
 }
 
-#projects #main-project-container .main-projects .text-and-others .tools-and-link .tools table{
+#projects .main-projects .text-and-others .tools-and-link .tools table{
   
   margin-left: 70px;
  border-collapse: collapse;
  width: 60%;
 }
-#projects #main-project-container .main-projects .text-and-others .tools-and-link .tools table td{
+#projects .main-projects .text-and-others .tools-and-link .tools table td{
     font-size: 1rem;
-    font-weight: 300;
+    font-weight: 400;
     color: var(--white);
     padding: 2px;
 }
 
-#projects #main-project-container .main-projects .text-and-others .tools-and-link .tools table td::before {
+#projects .main-projects .text-and-others .tools-and-link .tools table td::before {
     content: "\2022"; 
-    padding-right: 10px;
+    margin-right: 10px;
   }
 
-#projects #main-project-container .main-projects .text-and-others .tools-and-link .link{
-    height: 40%;
+#projects .main-projects .text-and-others .tools-and-link .link{
+    height: 35%;
     width: 100%;
     display: flex;
     justify-content: top;
     align-items: center;
     flex-direction: column;
 }
-#projects #main-project-container .main-projects .text-and-others .tools-and-link .link a img
+#projects .main-projects .text-and-others .tools-and-link .link a img
 {
     height :30px;
     width: 30px;
@@ -339,7 +335,7 @@ main #content .introtext h5{
     transition: all 0.3s ease;
 }
 
-#projects #main-project-container .main-projects .text-and-others .tools-and-link .link a img:hover{
+#projects .main-projects .text-and-others .tools-and-link .link a img:hover{
     transform: scale(1.19);
     border-radius: 50%;
 }   
