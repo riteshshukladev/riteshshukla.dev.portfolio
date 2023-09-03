@@ -88,7 +88,6 @@ main #content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 0 10rem; */
 }
 main #content .img-and-contact{
     height: 100%;
@@ -203,7 +202,7 @@ main #content .introtext h5{
     line-height: 1.5;
 }
 
-/* Project sect */
+/*Main Project section */
 #projects{
     height: 1080px;
     width: 100%;
@@ -340,4 +339,56 @@ main #content .introtext h5{
     border-radius: 50%;
 }   
 
- 
+/* mini-project section */
+
+#sub-projects{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 13rem;
+}
+#sub-projects .sub-pr-containers{
+    height: 300px;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content:top;
+    flex-direction: column;
+    background-color: var(--pr-container);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 15px 10px;
+    padding: 20px 18px;
+    position: relative;
+
+}
+#sub-projects .sub-pr-containers .sub-pr-heading{
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--white);
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--white);
+}
+#sub-projects .sub-pr-containers p{
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: var(--white);
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+#sub-projects .sub-pr-containers .arr-link{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    /* font-weight: 100; */
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+#sub-projects .sub-pr-containers .arr-link:hover{
+  
+    transform: translateX(5px);
+}
