@@ -8,6 +8,9 @@
 .p1-padding{
     padding: 30px 60px;
 }
+.p2-padding{
+    padding: 0 12rem;
+}
 * {
     padding: 0;
     margin: 0;
@@ -185,10 +188,10 @@ main #content .introtext h5{
     height: 100%;
     width: 100%;
     display: flex;
-    justify-content:baseline;
-    align-items:baseline;
+    justify-content:flex-start;
+    align-items:start;
     flex-direction: column;
-    padding: 0 10rem;
+    padding-left: 40px;
 }
 #about-sect #about-content .about-heading{
     font-size: 3rem;
@@ -210,7 +213,7 @@ main #content .introtext h5{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 0 12rem;
+    /* padding: 0 12rem; */
 }
 #projects .project-heading{
     font-size: 3rem;
@@ -349,11 +352,10 @@ main #content .introtext h5{
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 0 13rem;
 }
 #sub-projects .sub-pr-containers{
     height: 300px;
-    width: 45%;
+    width: 44%;
     display: flex;
     align-items: center;
     justify-content:top;
@@ -393,4 +395,22 @@ main #content .introtext h5{
   
     transform: translateX(5px);
     font-weight: 400;
+}
+
+/* Footer */
+footer{
+    margin-top: 50px;
+    height: 12vh;
+    width: 100%;
+    background-color: var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer h6{
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--white);
+    margin-bottom: 10px;
 }
