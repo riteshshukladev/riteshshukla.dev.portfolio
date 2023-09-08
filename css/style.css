@@ -1,16 +1,4 @@
-:root {
-    --black: #000;
-    --white: #fff;
-    --main-bg-color:#0d0d0e;
-    --light-orange:rgb(235, 125, 125);
-    --pr-container:#3a3636;
-}
-.p1-padding{
-    padding: 30px 60px;
-}
-.p2-padding{
-    padding: 0 12rem;
-}
+
 * {
     padding: 0;
     margin: 0;
@@ -354,8 +342,8 @@ main #content .introtext h5{
     flex-wrap: wrap;
 }
 #sub-projects .sub-pr-containers{
-    height: 300px;
-    width: 44%;
+    height: 280px;
+    width: 500px;
     display: flex;
     align-items: center;
     justify-content:top;

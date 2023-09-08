@@ -1,0 +1,14 @@
+:root {
+    --black: #000;
+    --white: #fff;
+    --main-bg-color:#0d0d0e;
+    --light-orange:rgb(235, 125, 125);
+    --pr-container:#2b2828;
+    /* #3a3636 */
+}
+.p1-padding{
+    padding: 30px 60px;
+}
+.p2-padding{
+    padding: 0 12rem;
+}
