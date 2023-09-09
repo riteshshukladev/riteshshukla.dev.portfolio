@@ -166,6 +166,11 @@ main #content .introtext h5{
     font-weight: 300;
     margin-bottom: 10px;
     margin-left: 30px;
+    margin-right: 80px;
+}
+
+main #content .introtext p{
+    margin-bottom: 0.8rem;
 }
 /* About Section */
 #about-sect{
@@ -191,8 +196,12 @@ main #content .introtext h5{
     font-weight: 300;
     margin-bottom: 10px;
     line-height: 1.5;
+    margin-right: 80px;
+    text-align: justify;
 }
-
+#about-sect #about-content .abt-text p {
+    margin-bottom: 2em; /* Adjust the value as needed for the desired gap */
+  }
 /*Main Project section */
 #projects{
     height: 1080px;
