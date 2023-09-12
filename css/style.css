@@ -24,14 +24,15 @@ header nav {
     justify-content: flex-end;
 }
 
-header nav ul {
+header nav .navbar {
     display: flex;
     align-items: center;
     flex-direction: row;
     padding-right: 4rem;
+    
 }
 
-header nav ul li {
+header nav .navbar li {
     list-style: none;
     font-size: 1.2rem;
     font-weight: 300;
@@ -39,7 +40,13 @@ header nav ul li {
     position: relative;
 }
 
-header nav ul li::after {
+  .navbar .close{
+    display: none;
+}
+header nav .tab{
+    display: none;
+}
+header nav .navbar li::after {
     content: '';
     display: block;
     width: 0;
@@ -51,15 +58,15 @@ header nav ul li::after {
     transition: width 0.3s ease;
 }
 
-header nav ul li:hover::after {
+header nav .navbar li:hover::after {
     width: 100%;
 }
 
-header nav ul li:hover {
+header nav .navbar li:hover {
     transform: scale(1.06);
 }
 
-header nav ul li a {
+header nav .navbar li a {
     color: var(--white);
     text-decoration: none;
 }
