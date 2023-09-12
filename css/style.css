@@ -29,7 +29,7 @@ header nav .navbar {
     align-items: center;
     flex-direction: row;
     padding-right: 4rem;
-    
+
 }
 
 header nav .navbar li {
@@ -207,11 +207,11 @@ main #content .introtext p{
     text-align: justify;
 }
 #about-sect #about-content .abt-text p {
-    margin-bottom: 2em; /* Adjust the value as needed for the desired gap */
+    margin-bottom: 2em; 
   }
 /*Main Project section */
 #projects{
-    height: 1080px;
+    height: 1100px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -225,7 +225,7 @@ main #content .introtext p{
     margin-bottom: 10px;
 }
 #projects .main-projects{
-    height: 50%;
+    height: 100%;
     width: 90%;
     display: flex;
     align-items: center;

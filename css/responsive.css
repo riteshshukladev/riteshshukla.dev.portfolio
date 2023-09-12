@@ -1,4 +1,4 @@
-@media screen and (min-width:700px) and (max-width: 1024px){
+@media screen and (min-width:600px) and (max-width: 1024px){
     .p1-padding{
         padding: 20px 30px;
     }
@@ -93,7 +93,7 @@
     }
     #projects .main-projects .text-and-others .tools-and-link .tools table{
   
-        margin-left: 50px;
+        margin-left: 0px;
        width: 40%;
       }
 
@@ -254,5 +254,16 @@
     
     }
 }
-
-
+@media screen and (min-width:1024px ) and (max-width:1224px){
+    .p1-padding{
+        padding: 30px 40px;
+    }
+    .p2-padding{
+        padding: 0 8rem;
+    }
+    #projects .main-projects .text-and-others .tools-and-link .tools table{
+  
+        margin-left: 50px;
+       
+      }
+}
