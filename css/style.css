@@ -196,7 +196,7 @@ main #content .introtext p{
 #about-sect #about-content .about-heading{
     font-size: 3rem;
     font-weight: 500;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 #about-sect #about-content .abt-text{
     font-size: 1.2rem;
@@ -207,7 +207,11 @@ main #content .introtext p{
     text-align: justify;
 }
 #about-sect #about-content .abt-text p {
-    margin-bottom: 2em; 
+    margin-bottom: 1.8em; 
+  }
+
+  #about-sect #about-content .abt-text p:nth-child(5) {
+    margin-bottom: 1em; 
   }
 /*Main Project section */
 #projects{
