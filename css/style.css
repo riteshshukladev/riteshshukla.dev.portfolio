@@ -181,7 +181,7 @@ main #content .introtext p{
 }
 /* About Section */
 #about-sect{
-    height: 90vh;
+    height: 100vh;
     width: 100%;
 }
 #about-sect #about-content{
