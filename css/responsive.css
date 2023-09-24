@@ -1,4 +1,4 @@
-@media screen and (min-width:600px) and (max-width: 1024px){
+@media screen and (min-width:650px) and (max-width: 1024px){
     .p1-padding{
         padding: 20px 30px;
     }
@@ -73,7 +73,7 @@
         width: 100%;
         flex-direction: column;
     }
-    #projects .main-projects .project-main-img {
+    #projects .main-projects .main-pr-image {
         width: 55%;
     }
     #projects .main-projects .text-and-others{
@@ -87,26 +87,13 @@
         margin: 10px 0;
     }
     #projects .main-projects .text-and-others .head-and-about{
-        height: 75%;
+        height: 90%;
         
     }
-    #projects .main-projects .text-and-others .tools-and-link{
-        height: 25%;
+    #projects .main-projects .text-and-others .tools{
         
+        margin: 0px 0;
     }
-    #projects .main-projects .text-and-others .tools-and-link .tools{
-        height: 65%;
-        margin: 5px 0;
-    }
-    #projects .main-projects .text-and-others .tools-and-link .link{
-        height: 35%;
-
-    }
-    #projects .main-projects .text-and-others .tools-and-link .tools table{
-  
-        margin-left: 0px;
-       width: 40%;
-      }
 
       #sub-projects {
         align-items: center;
@@ -261,7 +248,7 @@
     #projects .project-heading {
         margin-top: 50px;
     }
-    #projects .main-projects .project-main-img {
+    #projects .main-projects .main-pr-image {
         width: 100%;
         height: 50%;
     }
@@ -290,9 +277,4 @@
     .p2-padding{
         padding: 0 8rem;
     }
-    #projects .main-projects .text-and-others .tools-and-link .tools table{
-  
-        margin-left: 50px;
-       
-      }
 }

@@ -240,19 +240,45 @@ main #content .introtext p{
     overflow: hidden;
     margin: 50px 0px;
 }
-#projects .main-projects .project-main-img {
+#projects .main-projects .main-pr-image {
     height: 100%;
-    width: 55%;
+    width: 50%;
+    overflow: hidden;
+    position: relative ;
 }
 
-#projects .main-projects .project-main-img img{
-    height: 100%;
-    width: 100%;
-    background-size: cover;
+
+
+#projects .main-projects .main-pr-image img {
+    height: 100%; 
+     width: 100%;
 }
+
+#projects .main-projects .main-pr-image .overlay{
+    position: absolute;
+  bottom: 0;
+  right: 0;;
+  margin: 5px 15px;
+}
+#projects .main-projects .main-pr-image .overlay a img{
+    height: 25px;
+    width: 25px;
+    transition: all 0.3s ease;
+    margin: 0 3px;
+    background-color: var(--white);
+    border-radius: 50%;
+    padding: 5px;
+    transition: all 0.3s ease;
+}
+#projects .main-projects .main-pr-image:hover .overlay a img:hover{
+    transform: translateY(-8px);
+    border-radius: 10%;
+
+}
+
 #projects .main-projects .text-and-others{
     height: 100%;
-    width: 45%;
+    width:50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -261,7 +287,7 @@ main #content .introtext p{
     
 }
 #projects .main-projects .text-and-others .head-and-about{
-    height: 65%;
+    height: 80%;
     width: 100%;
     display: flex;
     justify-content:flex-start;
@@ -274,7 +300,7 @@ main #content .introtext p{
     font-size: 2rem;
     font-weight: 400;
     color: var(--white);
-    border-bottom: 2px solid var(--white);
+    border-bottom: 1.5px solid var(--white);
 }
 #projects .main-projects .text-and-others .head-and-about .pr-details{
     
@@ -286,70 +312,38 @@ main #content .introtext p{
     margin: 15px 0;
 }
 
-#projects .main-projects .text-and-others .tools-and-link{
-    height: 35%;
-    width:100%;
-    
-}
-#projects .main-projects .text-and-others .tools-and-link .tools{
-    height: 65%;
+#projects .main-projects .text-and-others .tools{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: start;
     flex-direction: column;
-    margin: 10px 0;
     border-top: 1px solid var(--white);
-    border-bottom: 1px solid var(--white);
+    flex-wrap: wrap;
 }
-#projects .main-projects .text-and-others .tools-and-link .tools h5{
+#projects .main-projects .text-and-others .tools h5{
     font-size: 1.2rem;
     font-weight: 500;
     margin-bottom: 10px;
     color: var(--white);
-}
-
-#projects .main-projects .text-and-others .tools-and-link .tools table{
-  
-  margin-left: 70px;
- border-collapse: collapse;
- width: 60%;
-}
-#projects .main-projects .text-and-others .tools-and-link .tools table td{
-    font-size: 1rem;
-    font-weight: 400;
-    color: var(--white);
-    padding: 2px;
-}
-
-#projects .main-projects .text-and-others .tools-and-link .tools table td::before {
-    content: "\2022"; 
-    margin-right: 10px;
-  }
-
-#projects .main-projects .text-and-others .tools-and-link .link{
-    height: 35%;
-    width: 100%;
+    margin: 10px 0;
     display: flex;
-    justify-content: top;
     align-items: center;
-    flex-direction: column;
-}
-#projects .main-projects .text-and-others .tools-and-link .link a img
-{
-    height :30px;
-    width: 30px;
-    background-color: transparent;
-    border-radius: 10%;
-    padding: 2px;
-    margin: 0 5px;
-    transition: all 0.3s ease;
+    justify-content: start;
 }
 
-#projects .main-projects .text-and-others .tools-and-link .link a img:hover{
-    transform: scale(1.19);
-    border-radius: 50%;
-}   
+#projects .main-projects .text-and-others .tools h5 .tool-logo img{
+    height: 30px;
+    width: 30px;
+    margin-right: 3px;
+    margin-top: 5px;
+}
+#projects .main-projects .text-and-others .tools h5 .tool-logo{
+    display: inline;
+}
+
+
+
 
 /* mini-project section */
 
