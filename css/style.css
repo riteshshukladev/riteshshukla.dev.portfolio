@@ -149,7 +149,6 @@ main #content .introtext h2{
 main #content .introtext h2 span{
     color:var(--light-orange) ;
     font-weight: 400;
-    /* transition: all 0.3s ease; */
     position: relative;
     cursor:text;
 }
@@ -271,8 +270,7 @@ main #content .introtext p{
     transition: all 0.3s ease;
 }
 #projects .main-projects .main-pr-image:hover .overlay a img:hover{
-    transform: translateY(-8px);
-    border-radius: 10%;
+    transform: scale(1.1);
 
 }
 
@@ -357,8 +355,8 @@ main #content .introtext p{
     flex-wrap: wrap;
 }
 #sub-projects .sub-pr-containers{
-    height: 280px;
-    width: 500px;
+    height: 270px;
+    width: 450px;
     display: flex;
     align-items: center;
     justify-content:top;
