@@ -134,13 +134,10 @@ main #content .introtext{
 
 }
 main #content .introtext h1{
-    font-size: 3rem;
-    font-weight: 500;
-    margin-bottom: 10px;
+    margin: 10px 0;
+
 }
 main #content .introtext h2{
-    font-size: 2rem;
-    font-weight: 300;
     margin-bottom: 10px;
     margin-left: 30px;
     transition: all 0.3s ease;
@@ -168,8 +165,7 @@ main #content .introtext h2 span:hover::after{
     width: 100%;
 }
 main #content .introtext h5{
-    font-size: 1.2rem;
-    font-weight: 300;
+    
     margin-bottom: 10px;
     margin-left: 30px;
     margin-right: 80px;
@@ -180,6 +176,7 @@ main #content .introtext p{
 }
 /* About Section */
 #about-sect{
+    margin-top: 30px;
     height: 100vh;
     width: 100%;
 }
@@ -192,22 +189,17 @@ main #content .introtext p{
     flex-direction: column;
     padding-left: 40px;
 }
-#about-sect #about-content .about-heading{
-    font-size: 3rem;
-    font-weight: 500;
+#about-sect #about-content .about-heading {
+    
     margin-bottom: 20px;
 }
-#about-sect #about-content .abt-text{
-    font-size: 1.2rem;
-    font-weight: 300;
+#about-sect #about-content .abt-text p{
+    
     margin-bottom: 10px;
     line-height: 1.5;
     margin-right: 80px;
     text-align: justify;
 }
-#about-sect #about-content .abt-text p {
-    margin-bottom: 1.8em; 
-  }
 
   #about-sect #about-content .abt-text p:nth-child(5) {
     margin-bottom: 1em; 
@@ -223,8 +215,6 @@ main #content .introtext p{
     /* padding: 0 12rem; */
 }
 #projects .project-heading{
-    font-size: 3rem;
-    font-weight: 500;
     margin-bottom: 10px;
 }
 #projects .main-projects{
@@ -295,15 +285,11 @@ main #content .introtext p{
 
 #projects .main-projects .text-and-others .head-and-about .pr-name{
 
-    font-size: 2rem;
-    font-weight: 400;
     color: var(--white);
     border-bottom: 1.5px solid var(--white);
 }
 #projects .main-projects .text-and-others .head-and-about .pr-details{
-    
     font-size: 1.1rem;
-    font-weight: 300;
     color: var(--white);
     line-height: 1.5;
     
@@ -320,8 +306,6 @@ main #content .introtext p{
     flex-wrap: wrap;
 }
 #projects .main-projects .text-and-others .tools h5{
-    font-size: 1.2rem;
-    font-weight: 500;
     margin-bottom: 10px;
     color: var(--white);
     margin: 10px 0;
@@ -370,15 +354,11 @@ main #content .introtext p{
 
 }
 #sub-projects .sub-pr-containers .sub-pr-heading{
-    font-size: 2rem;
-    font-weight: 400;
     color: var(--white);
     margin-bottom: 20px;
     border-bottom: 1px solid var(--white);
 }
 #sub-projects .sub-pr-containers p{
-    font-size: 1.1rem;
-    font-weight: 300;
     color: var(--white);
     line-height: 1.7;
     margin-bottom: 20px;
@@ -410,8 +390,33 @@ footer{
     flex-direction: column;
 }
 footer h6{
-    font-size: 1rem;
-    font-weight: 300;
     color: var(--white);
     margin-bottom: 10px;
+}
+
+h6{
+    font-size: 1rem;
+    font-weight: 300;
+
+}
+p{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+h5{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+h2{
+    font-size: 2rem;
+    font-weight: 300;
+
+}
+h1{
+    font-size: 3rem;
+    font-weight: 500;
+}
+h3{
+    font-size: 1.8rem;
+    font-weight: 400;
 }

@@ -12,3 +12,31 @@
 .p2-padding{
     padding: 0 10rem;
 }
+
+
+h6{
+    font-size: 1rem;
+    font-weight: 300;
+
+}
+p{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+h5{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+h2{
+    font-size: 2rem;
+    font-weight: 300;
+
+}
+h1{
+    font-size: 3rem;
+    font-weight: 500;
+}
+h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+}
