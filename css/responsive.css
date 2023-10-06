@@ -109,6 +109,11 @@
         margin: 10px 10px;
         padding: 15px 12px;
     }
+    #form-section .contact-form{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 @media screen and (min-width:350px) and (max-width: 524px){
@@ -275,7 +280,17 @@
         position: relative;
     
     }
-
+    /* Form */
+    #form-section .contact-form{
+        flex-direction: column;
+        /* justify-content: space-around; */
+    }
+    #form-section .contact-form .form form{
+        width: 100%;
+    }
+    #form-section .contact-form .contact{
+        margin-bottom: 10px;
+    }
 }
 @media screen and (min-width:1024px ) and (max-width:1224px){
     .p1-padding{
