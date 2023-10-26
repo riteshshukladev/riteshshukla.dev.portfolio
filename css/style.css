@@ -96,20 +96,28 @@ main #content .img-and-contact{
     align-items: center;
 }
 main #content .img-and-contact .main-img img{
-    height: 330px;
-    width: 330px;
+    height: 350px;
+    width: 350px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 10px;
-    padding: 5px;
-    border: 0.5px solid var(--white);
-    transition: all 0.3s ease;
-}
-main #content .img-and-contact img:hover{
     padding: 0px;
-    border: none;
-   
+    animation: floatAnimation 3s ease-in-out infinite;    
+    transition: all 0.5s ease;
 }
+
+@keyframes floatAnimation {
+    0%,100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+}
+main #content .img-and-contact .main-img img:hover{
+    animation: none;
+}
+
 main #content .img-and-contact .contact{
     margin-top: 15px;
 }
