@@ -49,9 +49,20 @@ form.addEventListener('submit', e =>{
         submitbtn.innerText="sent...";
         nameInput.value = '';
         emailInput.value = '';
-        messageInput.value = '';
+        
+        Swal.fire({
+            title: 'Sucess...',
+            text: 'Thanks For Messaging,will reach to you shortly',
+            icon: 'success',
+            confirmButtonText: 'close'
+          })
     },(error) =>{
         console.log(error);
-        submitbtn.innerText = 'failed..'
+        Swal.fire({
+            title: 'Error',
+            text: 'Something is Wrong,Please Try Again!',
+            icon: 'error',
+            confirmButtonText: 'close'
+          })
     })
 });
