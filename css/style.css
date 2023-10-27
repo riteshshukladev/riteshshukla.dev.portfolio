@@ -22,6 +22,8 @@ header nav {
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+    position: relative;
 }
 
 header nav .navbar {
@@ -29,8 +31,21 @@ header nav .navbar {
     align-items: center;
     flex-direction: row;
     padding-right: 4rem;
-
+    
 }
+header nav .navbar .header-img {
+   
+    height: 50px;
+     width: 50px;
+     position: absolute;
+     left: 4rem;
+
+ }
+ header nav .navbar .header-img img{
+     height: 100%;
+     width: 100%;
+     border-radius: 50%;
+ }
 
 header nav .navbar li {
     list-style: none;
@@ -104,18 +119,18 @@ main #content .img-and-contact .main-img img{
     padding: 0px;
     animation: floatAnimation 3s ease-in-out infinite;    
     transition: all 0.5s ease;
-}
+    box-shadow: 0px 0px 19px 0px rgb(173 151 151 / 40%);}
 
 @keyframes floatAnimation {
     0%,100% {
         transform: translateY(0px);
     }
     50% {
-        transform: translateY(10px);
+        transform: translateY(5px);
     }
 }
 main #content .img-and-contact .main-img img:hover{
-    animation: none;
+   animation: none;
 }
 
 main #content .img-and-contact .contact{

@@ -40,3 +40,38 @@ h3{
     font-size: 1.8rem;
     font-weight: 400;
 }
+
+
+@media screen and (max-height:880px) and (min-width:350px) and (max-width: 524px){
+    
+    h6{
+        font-size: .8rem;
+        font-weight: 300;
+    
+    }
+    p{
+        font-size: 1rem;
+        font-weight: 300;
+    }
+    h5{
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+    h2{
+        font-size: 1.8rem;
+        font-weight: 300;
+    
+    }
+    h1{
+        font-size: 2.5rem;
+        font-weight: 500;
+    }
+    h3{
+        font-size: 1.6rem;
+        font-weight: 400;
+    }
+    main #content .img-and-contact .main-img img{
+        height: 250px;
+        width: 250px;
+    }
+    }
