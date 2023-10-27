@@ -45,6 +45,7 @@ header nav .navbar .header-img {
      height: 100%;
      width: 100%;
      border-radius: 50%;
+     cursor: pointer;
  }
 
 header nav .navbar li {
@@ -84,6 +85,45 @@ header nav .navbar li:hover {
 header nav .navbar li a {
     color: var(--white);
     text-decoration: none;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.9);
+    /* opacity: 0; */
+    transition: opacity 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 800px;
+    max-height: 100vh;
+}
+
+.close {
+    color: #fff;
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: opacity 0.3s ease; 
+
+}
+.close:hover {
+    color: #bbb;
 }
 /* Main body */
 

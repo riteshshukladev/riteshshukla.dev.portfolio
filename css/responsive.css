@@ -44,6 +44,23 @@
         align-items: center;
         margin-right: 20px;
     }
+    header nav .navbar .header-img {
+   
+        height: 50px;
+         width: 50px;
+         position: absolute;
+         left: 2rem;
+         top: 13rem;
+         
+    
+     }
+    .modal{
+        padding-top: 20%;
+     }
+     .modal-content{
+        width: 75%;
+        height: 70vh ;
+     }
 
     main #content .introtext h5{
         
@@ -177,6 +194,15 @@
          
     
      }
+     .modal{
+        padding-top: 30%;
+    
+     }
+     .modal-content{
+        width: 75%;
+        height: 65vh ;
+     }
+     
     /* main */
     main {
         

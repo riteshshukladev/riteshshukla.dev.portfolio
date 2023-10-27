@@ -31,7 +31,7 @@
     <header>
         <nav>
             <ul class="navbar">
-            <div class="header-img"><img src="/AI images/port-image-1.jpg" alt=""></div>
+            <div class="header-img"><img src="/AI images/port-image-1.jpg" alt="" id="enlargeImageBtn"></div>
                 <li class="Abt">
                     <a class="Abt" href="#about-sect">about</a>
                 </li>
@@ -45,13 +45,18 @@
                     close
                 </span>
             </ul>
-
+            <!-- resposnive bar -->
             <div class="tab">
                 <span class="material-symbols-outlined bar">
                     menu
                 </span>
             </div>
         </nav>
+        <!-- Image expand -->
+        <div id="imageModal" class="modal" style="display: none;">
+            <span class="close" id="closeModal">&times;</span>
+            <img src="/AI images/port-image-3.jpg" alt="Large Image" class="modal-content">
+        </div>
     </header>
     <!-- Main -->
     <main class="p1-padding">
@@ -236,6 +241,7 @@
     <script src="/js/resize.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="/js/mailing.js"></script>
+    <script src="/js/image_expand.js"></script>
 </body>
 
 </html>
