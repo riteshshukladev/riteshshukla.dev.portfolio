@@ -391,54 +391,72 @@ main #content .introtext p{
 
 
 /* mini-project section */
+#other-projects {
+ display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#other-projects .small-pr-containers{
+    background-color: var(--pr-container);
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 10px;
 
-#sub-projects{
+    max-width: 700px;
+    min-width: 300px;
+    width: auto;
+}
+#other-projects .small-pr-containers h2{
+    color: var(--white);
+    margin-bottom: 20px;
+    
+}
+#other-projects .small-pr-containers .small-pr{
     height: 100%;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
+    
 }
-#sub-projects .sub-pr-containers{
-    height: 270px;
-    width: 450px;
+#other-projects .small-pr-containers .small-pr .pr{
+    max-height:50px ;
+    max-width: 300px;
+    width: 100%;
+    margin: 10px 10px;
+    padding: 7px 10px;
+    border-radius: 5px;
+    background-color: var(--white);
+    text-align: left;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content:top;
-    flex-direction: column;
-    background-color: var(--pr-container);
-    border-radius: 10px;
-    overflow: hidden;
-    margin: 15px 10px;
-    padding: 20px 18px;
-    position: relative;
 
 }
-#sub-projects .sub-pr-containers .sub-pr-heading{
-    color: var(--white);
-    margin-bottom: 20px;
-    border-bottom: 1px solid var(--white);
+#other-projects .small-pr-containers .small-pr .pr .text h5{
+    color: var(--black);
+    /* margin-bottom: 10px; */
+    font-weight: 300;
+    
+} 
+#other-projects .small-pr-containers .small-pr .pr .text p{
+    color: var(--black);
+    font-weight: 300;
+    font-size: 0.9rem;
+    line-height: 1.5;
 }
-#sub-projects .sub-pr-containers p{
-    color: var(--white);
-    line-height: 1.7;
-    margin-bottom: 20px;
-}
-#sub-projects .sub-pr-containers .arr-link{
-    position: absolute;
-    bottom: 10px;
-    right: 20px;
-    font-weight: 200;
-    transition: all 0.3s ease;
+
+#other-projects .small-pr-containers .small-pr .pr i{
+    color: var(--black);
+    font-size: 1.2rem;
     cursor: pointer;
-    color: var(--white);
+    transition: all 0.3s ease;
 }
-#sub-projects .sub-pr-containers .arr-link:hover{
-  
-    transform: translateX(5px);
-    font-weight: 400;
+#other-projects .small-pr-containers .small-pr .pr i:hover{
+    transform:translateX(3px);
+    color: var(--light-orange);
 }
 
 /* Form Section */
