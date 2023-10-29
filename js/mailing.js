@@ -36,7 +36,7 @@ const publicKEY = 'DnBc5bCak8jUdzQ-y';
 
 form.addEventListener('submit', e =>{
     e.preventDefault();
-    submitbtn.innerText = "wait...";
+    
 
     const inputFields = {
         name:nameInput.value,
@@ -46,10 +46,9 @@ form.addEventListener('submit', e =>{
 
     emailjs.send(serviceID,templateID,inputFields)
     .then(()=>{
-        submitbtn.innerText="sent...";
         nameInput.value = '';
         emailInput.value = '';
-        
+        messageInput.value='';
         Swal.fire({
             title: 'Sucess...',
             text: 'Thanks For Messaging,will reach to you shortly',
