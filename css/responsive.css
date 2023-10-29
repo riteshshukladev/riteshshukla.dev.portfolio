@@ -322,6 +322,11 @@
         min-width: 300px;
         width: auto;
     }
+    #other-projects .small-pr-containers .small-pr .pr {
+        max-height: 45px;
+        max-width: 280px;
+      
+    }
     
     /* Form */
     #form-section .contact-form{
