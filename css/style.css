@@ -4,6 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Barlow', sans-serif;
+    -webkit-tap-highlight-color: transparent;
 }
 body{
     background-color: var(--main-bg-color);
