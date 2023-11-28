@@ -68,7 +68,7 @@ header nav .navbar li::after {
     display: block;
     width: 0;
     height: 0.5px;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--light-orange);
     position: absolute;
     bottom: -2px;
     left: 0;
@@ -203,7 +203,7 @@ main #content .introtext h1{
 }
 main #content .introtext h2{
     margin-bottom: 10px;
-    margin-left: 30px;
+    margin-left: 35px;
     transition: all 0.3s ease;
 
 }
@@ -236,7 +236,8 @@ main #content .introtext h5{
 }
 
 main #content .introtext p{
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.2rem;
+    word-spacing: 2px;
 }
 /* About Section */
 #about-sect{
@@ -264,10 +265,51 @@ main #content .introtext p{
     margin-right: 80px;
     text-align: justify;
 }
+#about-sect #about-content .abt-text::first-letter{
+    font-size: 1.8rem;
+    font-weight: 400;
+    /* color: var(--light-orange); */
+}
+#about-sect #about-content .abt-text span{
+    color: var(--light-orange);
+    font-weight: 300;
+    cursor:text;
+}
 
   #about-sect #about-content .abt-text p:nth-child(5) {
     margin-bottom: 1em; 
   }
+
+  .skill-box__main{
+    border: 1px solid var(--light-orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 40px;
+  }
+  .skill-box__main .skills_box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     margin: 30px 0px;
+    /* margin: 0 20px; */
+  }
+  .skill-box__main .skills_box .skill-rows{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 100%;
+    padding: 10px 0px;
+  }
+  /* .skill-box__main .skills_box .skill-rows span{
+    margin: 10px 50px;
+  } */
 /*Main Project section */
 #projects{
     height: 1100px;

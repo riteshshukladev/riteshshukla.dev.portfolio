@@ -1,27 +1,4 @@
-// const pr1 = [
-//     "The Weather App provides real-time global weather data, offering easy and speedy access to weather information for any city. Use a user-friendly interface to select predefined cities for quick updates or enter your desired location. Dynamic backgrounds and icons reflect current weather conditions, creating a visual connection to the elements.",
-//     "The Weather App simplifies accessing real-time global weather. Quickly find weather data for any city with its user-friendly interface. It offers predefined city options for swift updates or allows manual entry.Enjoy dynamic backgrounds and icons reflecting current conditions, all powered by the reliable OpenWeather API.",
-//     "Experience instant access to real-time global weather with the Weather App. It offers quick access to predefined cities, dynamic visuals, and precise data powered by OpenWeather API. Stay informed and travel confidently with ease.User-friendly error handling guides you in case of input errors or API issues. "
-// ]
 
-// function updateTextBasedOnScreenSize() {
-//     const textContainer = document.querySelector(".pr-details");
-//     const screenWidth = window.innerWidth;
-
-//     if (screenWidth <= 524) {
-//         textContainer.textContent = pr1[2];
-//     } else if (screenWidth <= 1024) { 
-//         textContainer.textContent = pr1[1];
-//     } else {
-//         textContainer.textContent = pr1[0];
-//     }
-// }
-
-// // Initial call to set the text based on the current screen size
-// updateTextBasedOnScreenSize();
-
-// // Add an event listener to update the text when the screen size changes
-// window.addEventListener("resize", updateTextBasedOnScreenSize);
 
 
 const pr1 = [
@@ -63,3 +40,14 @@ updateTextBasedOnScreenSize();
 
 // Add an event listener to update the text when the screen size changes
 window.addEventListener("resize", updateTextBasedOnScreenSize);
+
+
+
+const content = `
+<p class="txt">Hello! I'm <span>Ritesh Shukla</span>, a passionate frontend developer from India, skilled in HTML, CSS, and JavaScript. I create captivating, interactive web experiences, transforming designs into seamless user interfaces.</p>
+<p class="txt">Currently mastering React.js and other technologies to deliver modern web applications with a perfect balance of aesthetics and functionality.</p>
+<p class="txt">I aspire to broaden my horizons in full-stack development, using cutting-edge technologies and AI to create intelligent web solutions.</p>
+<p class="txt">Let's collaborate and bring your web ideas to life with my knowledge and practice of these tech stacks!</p>
+`;
+
+document.querySelector('.abt-text').innerHTML= content;
