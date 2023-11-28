@@ -307,9 +307,12 @@ main #content .introtext p{
     min-width: 100%;
     padding: 10px 0px;
   }
-  /* .skill-box__main .skills_box .skill-rows span{
-    margin: 10px 50px;
-  } */
+  .skill-box__main .skills_box .skill-rows .skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 /*Main Project section */
 #projects{
     height: 1100px;
@@ -476,6 +479,7 @@ main #content .introtext p{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 #other-projects .small-pr-containers .small-pr .pr .text h5{
